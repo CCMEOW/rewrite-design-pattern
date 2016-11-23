@@ -76,13 +76,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="MyObservable.h" />
-    <ClInclude Include="MyObserver.h" />
+    <ClInclude Include="Heater.h" />
+    <ClInclude Include="Listener.h" />
+    <ClInclude Include="Observable.h" />
+    <ClInclude Include="Observer.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Heater.cpp" />
+    <ClCompile Include="Listener.cpp" />
     <ClCompile Include="MainProgram.cpp" />
-    <ClCompile Include="MyObservable.cpp" />
-    <ClCompile Include="MyObserver.cpp" />
+    <ClCompile Include="Observable.cpp" />
+    <ClCompile Include="Observer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

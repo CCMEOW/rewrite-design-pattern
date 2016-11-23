@@ -15,21 +15,33 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MyObserver.h">
+    <ClInclude Include="Observer.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="MyObservable.h">
+    <ClInclude Include="Observable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Heater.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Listener.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MyObserver.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="MyObservable.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="MainProgram.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Observable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Heater.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Listener.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
