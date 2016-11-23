@@ -80,6 +80,7 @@
     <ClInclude Include="MyObserver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="MainProgram.cpp" />
     <ClCompile Include="MyObservable.cpp" />
     <ClCompile Include="MyObserver.cpp" />
   </ItemGroup>

@@ -8,19 +8,13 @@ class MyObserver
 {
 public:
 	MyObserver();
+	MyObserver(string name);
 	~MyObserver();
 	void update(string message);
 private:
-	
+	string name;
 };
 
-MyObserver::MyObserver()
-{
-}
-
-MyObserver::~MyObserver()
-{
-}
 
 
 #endif

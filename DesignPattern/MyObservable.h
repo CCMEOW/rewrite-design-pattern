@@ -1,10 +1,9 @@
-#ifndef _MYOBSERVER_H_
-#define _MYOBSERVER_H_
+#ifndef _MYOBSERVABLE_H_
+#define _MYOBSERVABLE_H_
 
 #include <list>
+#include "MyObserver.h"
 using namespace std;
-
-class MyObserver;
 
 class MyObservable
 {
@@ -12,21 +11,15 @@ public:
 	MyObservable();
 	~MyObservable();
 
-	bool addObserver(MyObserver observer);
-	bool deleteObserver(MyObserver observer);
-	bool notifyObservers();
-
+	void addObserver(MyObserver* observer);
+	bool deleteObserver(MyObserver* observer);
+	void notifyObservers();
+	void setChanged();
+	void clearChanged();
 private:
-	list<MyObserver> myObservers;
+	list<MyObserver*> myObservers;
 	bool changed;
 };
 
-MyObservable::MyObservable()
-{
-}
-
-MyObservable::~MyObservable()
-{
-}
 
 #endif
