@@ -10,9 +10,11 @@ public:
 	Heater();
 	~Heater();
 
+	void setTime(int time);
+	void start();
 	void change();
 private:
-
+	int time;
 };
 
 #endif

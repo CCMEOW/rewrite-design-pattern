@@ -21,6 +21,7 @@
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v120</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -76,17 +77,41 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Add.h" />
+    <ClInclude Include="Circle.h" />
+    <ClInclude Include="Command.h" />
+    <ClInclude Include="CommandManager.h" />
+    <ClInclude Include="Directory.h" />
+    <ClInclude Include="Entry.h" />
+    <ClInclude Include="File.h" />
+    <ClInclude Include="Globle.h" />
+    <ClInclude Include="Graph.h" />
     <ClInclude Include="Heater.h" />
     <ClInclude Include="Listener.h" />
+    <ClInclude Include="Menu.h" />
     <ClInclude Include="Observable.h" />
     <ClInclude Include="Observer.h" />
+    <ClInclude Include="Panel.h" />
+    <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="Remove.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Add.cpp" />
+    <ClCompile Include="Circle.cpp" />
+    <ClCompile Include="Directory.cpp" />
+    <ClCompile Include="Entry.cpp" />
+    <ClCompile Include="File.cpp" />
+    <ClCompile Include="Global.cpp" />
+    <ClCompile Include="Graph.cpp" />
     <ClCompile Include="Heater.cpp" />
     <ClCompile Include="Listener.cpp" />
     <ClCompile Include="MainProgram.cpp" />
+    <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Observable.cpp" />
     <ClCompile Include="Observer.cpp" />
+    <ClCompile Include="Panel.cpp" />
+    <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="Remove.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

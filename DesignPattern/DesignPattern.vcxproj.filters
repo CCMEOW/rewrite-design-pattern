@@ -13,18 +13,75 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\Composite">
+      <UniqueIdentifier>{ebf2518d-50f6-46e3-ae71-5a53b055033e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Observer">
+      <UniqueIdentifier>{12b0fb68-cfac-448a-a55c-63ef2b7a064f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Observer">
+      <UniqueIdentifier>{664dd7c5-d9a2-4f55-8375-afa1c81d5ce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Composite">
+      <UniqueIdentifier>{1e27abd9-b3dd-4d5c-a0a2-6bf0c2048170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Command">
+      <UniqueIdentifier>{823a77b8-e8c1-4559-bc3b-774fb15017da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Command">
+      <UniqueIdentifier>{d78b32e2-0300-483d-a59f-528a95eb99e5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Observer.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Observable.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="Heater.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\Observer</Filter>
     </ClInclude>
     <ClInclude Include="Listener.h">
+      <Filter>头文件\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Observable.h">
+      <Filter>头文件\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>头文件\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Directory.h">
+      <Filter>头文件\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="Entry.h">
+      <Filter>头文件\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>头文件\Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>头文件\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandManager.h">
+      <Filter>头文件\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Add.h">
+      <Filter>头文件\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>头文件\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>头文件\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>头文件\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Panel.h">
+      <Filter>头文件\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Remove.h">
+      <Filter>头文件\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Globle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -32,16 +89,49 @@
     <ClCompile Include="MainProgram.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Observer.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Observable.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Heater.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Observer</Filter>
     </ClCompile>
     <ClCompile Include="Listener.cpp">
+      <Filter>源文件\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Observable.cpp">
+      <Filter>源文件\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>源文件\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Directory.cpp">
+      <Filter>源文件\Composite</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>源文件\Composite</Filter>
+    </ClCompile>
+    <ClCompile Include="Entry.cpp">
+      <Filter>源文件\Composite</Filter>
+    </ClCompile>
+    <ClCompile Include="Add.cpp">
+      <Filter>源文件\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Panel.cpp">
+      <Filter>源文件\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>源文件\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>源文件\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Remove.cpp">
+      <Filter>源文件\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.cpp">
+      <Filter>源文件\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
